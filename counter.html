@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+    .counterHolder{
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        width: 200px;
+        height: auto;
+        margin-top: 170px;
+        margin-left: 600px;
+        background-color: white;
+        box-shadow: 2px 2px 3px gray, -2px -2px 3px gray, 2px 2px 3px gray,-2px -2px 3px gray ;
+
+    }
+    #in{
+        background-color: lightskyblue;
+    }
+    #de{
+        background-color: lightpink;
+    }
+    #reset{
+        background-color: aquamarine;
+    }
+   </style>
+</head>
+<body>
+   <div class="counterHolder">
+    <h1>CounterApp</h1>
+    <p id="count">0</p>
+    <button id="in">Increment</button>
+    <button id="de">Decrement</button>
+    <button id="reset">Reset</button>
+   </div>
+
+    <script src="counter.js"></script>
+</body>
+</html>
